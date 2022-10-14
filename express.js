@@ -5,6 +5,4 @@ const server = app.listen(3000, () => {
     console.log('dev server listening on http://localhost:3000');
 });
 
-app.get('/', (req, res) => {
-    res.send('hello');
-});
+app.use(express.static('./public'));
