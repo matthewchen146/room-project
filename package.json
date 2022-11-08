@@ -1,15 +1,18 @@
 {
   "name": "room-project",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "start": "nodemon express.js -e html,js,css"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "express": "^4.18.2",
-    "nodemon": "^2.0.20"
+  "dependencies": {
+    "eslint": "8.27.0",
+    "eslint-config-next": "13.0.2",
+    "next": "13.0.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   }
 }
