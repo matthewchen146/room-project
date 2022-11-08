@@ -12,6 +12,18 @@ const nextConfig = {
                 permanent: true
             }
         ];
+    },
+    images: {
+        // https://nextjs.org/docs/messages/next-image-unconfigured-host
+        domains: ['picsum.photos']
+        // remotePatterns: [
+        //     {
+        //         protocol: 'https',
+        //         hostname: 'picsum.photos',
+        //         port: '',
+        //         pathname: '/account123/**'
+        //     }
+        // ]
     }
 };
 

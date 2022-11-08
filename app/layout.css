@@ -1,0 +1,44 @@
+nav {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.nav-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.profile-card {
+    background-color: blanchedalmond;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    top: 0;
+    right: 0;
+    position: absolute;
+    transition: width 200ms, height 200ms;
+}
+
+.profile-card-opened {
+    width: 100px;
+    height: 500px;
+    /* transition: width 200ms, height 200ms; */
+}
+
+.avatar {
+    --size: 50px;
+    width: var(--size);
+    height: var(--size);
+    border-radius: calc(var(--size) / 4);
+}
