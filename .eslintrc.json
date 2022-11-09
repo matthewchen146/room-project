@@ -19,7 +19,7 @@
     ],
     "rules": {
         // force 4 space tabs
-        "indent": ["error", 4],
+        "indent": ["error", 4, {"SwitchCase": 1}],
         // force semicolon at the end of lines
         "semi": ["error", "always"],
         // forbid spaces after function name or async before parenthesis

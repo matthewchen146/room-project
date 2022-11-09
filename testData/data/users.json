@@ -1,0 +1,57 @@
+[
+    {
+        "id": "3a5fd762-8c50-4095-8e7e-14ebed840709",
+        "username": "nostrud",
+        "password": "officia",
+        "first_name": "veniam",
+        "middle_name": "aliqua",
+        "last_name": "excepteur",
+        "email": "consectetur@gmail.com",
+        "phone": "123456789",
+        "avatar": "https://picsum.photos/200"
+    },
+    {
+        "id": "2885bc0f-d2fa-49e2-a892-35a0ea9cfbec",
+        "username": "eiusmod",
+        "password": "sunt",
+        "first_name": "commodo",
+        "middle_name": "ipsum",
+        "last_name": "in",
+        "email": "non@gmail.com",
+        "phone": "123456789",
+        "avatar": "https://picsum.photos/200"
+    },
+    {
+        "id": "9771651d-e828-4bb0-97b1-e1b347e87cad",
+        "username": "eiusmod",
+        "password": "esse",
+        "first_name": "enim",
+        "middle_name": "ex",
+        "last_name": "et",
+        "email": "laborum@gmail.com",
+        "phone": "123456789",
+        "avatar": "https://picsum.photos/200"
+    },
+    {
+        "id": "69a8b263-738b-4ead-a1ae-8b917ac9e144",
+        "username": "do",
+        "password": "officia",
+        "first_name": "proident",
+        "middle_name": "ullamco",
+        "last_name": "proident",
+        "email": "Lorem@gmail.com",
+        "phone": "123456789",
+        "avatar": "https://picsum.photos/200"
+    },
+    {
+        "id": "027f409a-50e4-404a-990a-39718ba978a0",
+        "username": "exercitation",
+        "password": "qui",
+        "first_name": "veniam",
+        "middle_name": "ad",
+        "last_name": "ex",
+        "email": "non@gmail.com",
+        "phone": "123456789",
+        "avatar": "https://picsum.photos/200"
+    }
+]
