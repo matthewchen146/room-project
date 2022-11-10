@@ -9,13 +9,6 @@ export default async function handler(req, res) {
         return;
     }
 
-    // const recipe = new Recipe({
-    //     title: 'new recipe',
-    //     description: 'hello world'
-    // });
-
-    // await recipe.save();
-
     const recipes = await Recipe.find();
 
     res.status(200).json(recipes);

@@ -1,4 +1,5 @@
-import Image from 'next/image';
+// import Image from 'next/image';
+import './feed.css';
 
 async function getFeed() {
     const response = await fetch('http://localhost:3000/api/feed', {});
@@ -8,10 +9,16 @@ async function getFeed() {
     // const recipes = JSON.parse(data);
     // console.log(recipes);
     const recipes = data.map((recipeObject, i) => {
-        const thumbnail = recipeObject.thumbnail || 'https://picsum.photos/300/200';
+        const thumbnail = recipeObject.thumbnail || `https://picsum.photos/seed/${i + 1}/300/200`;
+        const title = recipeObject.title;
+        const description = recipeObject.description;
         return (
             <article className='recipe' key={i}>
-                <Image src={thumbnail} alt='recipe thumbnail' width={300} height={200} />
+                <div className='img' style={{ backgroundImage: `url("${thumbnail}")` }}></div>
+                <div className='text'>
+                    <h1>{title}</h1>
+                    <p>{description}</p>
+                </div>
             </article>
         );
     });
@@ -23,7 +30,7 @@ export default async function HomePage() {
 
     return (
         <main>
-            <div>
+            <div className='article-container'>
                 {articles}
             </div>
         </main>

@@ -1,4 +1,5 @@
 import ProfileCard from './profileCard';
+import './navbar.css';
 
 export default function Navbar() {
     return (
@@ -7,6 +8,9 @@ export default function Navbar() {
                 <h2>Home Recipes</h2>
             </div>
             <div className='nav-right'>
+                <button>Home</button>
+                <button>About</button>
+                <button>Lists</button>
                 <ProfileCard />
             </div>
         </nav>
