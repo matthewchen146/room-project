@@ -1,3 +1,8 @@
+:root {
+    --navbar-height: 50px;
+    --navbar-z-index: 1;
+}
+
 .profile-card {
     background-color: blanchedalmond;
     /* width: 60px;
@@ -23,4 +28,8 @@
     width: var(--size);
     height: var(--size);
     border-radius: calc(var(--size) / 2);
+}
+
+.navbar-margin {
+    height: var(--navbar-height);
 }
